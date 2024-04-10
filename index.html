@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grad School Top Picks | Home</title>
+    <meta name="description" content="Ismael's top choices for graduate school">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="title">Grad School Top Picks</h1>
+    </header>
+    <div id="card-container"></div>
+    <div class="card" style="display: none;">
+        <div class="card-content">
+            <h2 class="name">University Name</h2>
+            <img class="image" src="" alt="University Logo">
+            <p class="description">University Description</p>
+            <p class="location">Location: City, State</p>
+            <p class="cost">Cost: $X (in-state), $Y (out-of-state)</p>
+            <p class="acceptance-rate"><strong>Acceptance Rate:</strong> X%</p>
+            <p class="notable-programs"><strong>Notable Programs:</strong> Program 1, Program 2</p>
+            <p class="website"><a href="#" target="_blank">Visit Website</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <button onclick="quoteAlert();">My Choice</button>
+        <button onclick="removeLastCard();">Remove A Card!</button>
+        <button onclick="sortSchoolsByName();">Sort By Name</button>
+        <button onclick="sortSchoolsByAcceptanceRate();">Sort by Acceptance Rate</button>
+	<button onclick="sortSchoolsByCost();">Sort by Cost</button>
+    </div>
+</body>
+
+</html>

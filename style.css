@@ -1,0 +1,92 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header styles */
+.main-header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+/* Card container styles */
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1200px; /* Limit width to improve readability */
+}
+
+/* Card styles */
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+button {
+    background-color: #666;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
